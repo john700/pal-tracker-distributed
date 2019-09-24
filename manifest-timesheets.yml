@@ -9,5 +9,5 @@ applications:
     REGISTRATION_SERVER_ENDPOINT: http://localhost:8083
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
-  - tracker-timesheets-database2
+  - tracker-timesheets-database
   - tracker-registry1

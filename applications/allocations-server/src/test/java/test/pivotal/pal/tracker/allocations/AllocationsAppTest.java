@@ -1,3 +1,4 @@
+
 package test.pivotal.pal.tracker.allocations;
 
 import io.pivotal.pal.tracker.oauthserver.allocations.App;

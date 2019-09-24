@@ -1,4 +1,4 @@
-import io.pivotal.pal.tracker.gradlebuild.DependenciesGraphPlugin
+import io.pivotal.pal.tracker.oauthserver.gradlebuild.DependenciesGraphPlugin
 
 buildscript {
     ext {

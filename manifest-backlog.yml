@@ -8,7 +8,9 @@ applications:
   env:
     #REGISTRATION_SERVER_ENDPOINT: http://FILL_ME_IN
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    GRANT_TYPE: client_credentials
   services:
   - tracker-backlog-database
   - tracker-backlog-registry1
   - tracker-circuit-breaker-dashboard1
+  - tracker-sso1

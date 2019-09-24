@@ -11,3 +11,4 @@ applications:
   services:
   - tracker-backlog-database
   - tracker-backlog-registry1
+  - tracker-circuit-breaker-dashboard1

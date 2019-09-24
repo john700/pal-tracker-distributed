@@ -6,8 +6,9 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://localhost:8083
+   # REGISTRATION_SERVER_ENDPOINT: http://localhost:8083
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-timesheets-database
   - tracker-registry1
+  - tracker-circuit-breaker-dashboard1

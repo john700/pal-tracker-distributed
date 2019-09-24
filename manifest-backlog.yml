@@ -1,12 +1,13 @@
 applications:
-- name: tracker-backlog
+- name: tracker-backlog1
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-{UNIQUE_IDENTIFIER}.apps.chicken.pal.pivotal.io
+  - route: backlog-pal-john-anto.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://FILL_ME_IN
+    #REGISTRATION_SERVER_ENDPOINT: http://FILL_ME_IN
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
-  - tracker-backlog-database
+  - tracker-backlog-database1
+  - tracker-backlog-registry1

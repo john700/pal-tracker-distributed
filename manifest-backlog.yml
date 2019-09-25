@@ -14,3 +14,4 @@ applications:
   - tracker-backlog-registry1
   - tracker-circuit-breaker-dashboard1
   - tracker-sso1
+  - tracker-config-server1
